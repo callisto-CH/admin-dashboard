@@ -1,0 +1,294 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: Roboto, Arial, sans-serif;
+}
+
+body {
+	height: 100vh
+}
+
+ul {
+	list-style: none;
+}
+
+.wrapper {
+	height: 100%;
+	display: grid;
+	grid-template-columns: 1fr 4fr;
+	grid-template-rows: 1fr 5fr;
+}
+
+.sidebar {
+	height: 100%;
+	padding-top: 1rem;
+	padding-left: 1.5rem;
+	
+	grid-column: 1 / 2;
+	grid-row: 1 / 3;
+	display: grid;
+	grid-template-rows: auto 1fr;
+	gap: 3rem;
+
+	background-color: #2FBBBE;
+	font-size: 1.5rem;
+}
+
+nav {
+	display: grid;
+	grid-template-rows: 20rem 20rem;
+}
+
+ul {
+	display: grid;
+	grid-auto-rows: 3rem;
+}
+
+li {
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-columns: 2.75rem;
+}
+
+li span,
+li img {
+	align-self: center;
+}
+
+.sidebar img {
+	filter: invert(1);
+}
+
+.sidebar * {
+	color: white;
+}
+
+img[src$=".svg"] {
+	height: 2.2rem;
+	width: 2.2rem;
+}
+
+img.profile-pic {
+	border-radius: 50%;
+	height: auto;
+	width: 3rem;
+}
+
+.logo {
+	display: grid;
+	grid-auto-flow: column;
+	grid-template-columns: auto 1fr;
+	gap: 1.5rem;
+}
+
+.logo > img {
+	height: 3.5rem;
+	width: 3.5rem;
+}
+
+.logo > span {
+	font-size: 2rem;
+	align-self: center;
+}
+
+.header {
+	grid-column: 2 / 3;
+	grid-row: 1 / 2;
+
+	display: grid;
+	grid-template-rows: 1fr 1fr;
+
+	background-color: white;
+}
+
+.header-top {
+	display: grid;
+	grid-template-columns: 65% 35%;
+}
+
+.search-bar {
+	padding: 0 1.5rem 0 1.5rem;
+	
+	display: grid;
+	grid-template-columns: 3rem auto;
+	align-items: center;
+}
+
+.search-bar input {
+	padding: 0 0.75rem;
+	margin-right: 6rem;
+	
+	border: none;
+	border-radius: 1rem;
+	
+	font-size: 1.25rem;	
+	background-color: #EEEEEE;
+}
+
+.header-top > .search-bar + div {
+	margin-right: 3rem;
+	
+	display: grid;
+	grid-template-columns: 3rem 4rem max-content;
+	align-items: center;
+	justify-content: end;
+	gap: 1rem;
+}
+
+.header-top span {
+	font-weight: 800;
+}
+
+.header-bottom {
+	margin: 0 1.5rem 0.25rem 1.5rem;
+	
+	display: grid;
+	grid-template-columns: 1fr repeat(3, 8rem);
+	gap: 1rem;
+	
+	align-items: center;
+}
+
+.user > img {
+	height: auto;
+	width: 4rem;
+}
+
+.user {
+	display: grid;
+	grid-template-columns: 4.5rem 1fr;
+	grid-auto-flow: column;
+	align-items: center;
+	gap: 1rem;
+}
+
+.user span {
+	font-weight: 800;
+	font-size: 1.25rem;
+}
+
+.header-bottom button {
+	border: none;
+	border-radius: 1rem;
+	height: 2rem;
+	
+	background-color: #2FBBBE;
+	color: white;
+	font-weight: 550;
+}
+
+.content {
+	height: auto;
+	padding: 0.5rem 2rem 1rem 2rem;
+	
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+
+	display: grid;
+	grid-template-columns: 70% 30%;
+	grid-template-rows: 1.5rem 1fr 1.5rem 1fr;
+	grid-auto-flow: column;
+	column-gap: 1rem;
+	row-gap: 0.5rem;
+
+	background-color: #EEEEEE;
+}
+
+.content-header {
+	align-self: end;
+	font-size: 1.2rem;
+}
+
+.projects-cards {
+	grid-row: 2 / 5;
+
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr 1fr;
+	gap: 0.75rem;
+}
+
+.card {
+	padding: 1rem;
+	
+	display: grid;
+	grid-template-rows: auto 1fr auto;
+	gap: 0.5rem;
+
+	background-color: white;
+	border-left: 6px solid #2FBBBE;
+	border-radius: 1rem;
+}
+
+.card > div,
+.announcements-card > div > div {
+	color: grey;
+}
+
+.card > strong {
+	font-size: 1.2rem;
+}
+
+.card-icons {
+	margin-left: auto;
+
+	display: grid;
+	grid-auto-flow: column;
+	gap: 1rem;
+}
+
+.announcements-card {
+	padding: 0.75rem;
+
+	display: grid;
+	align-items: center;
+	justify-content: center;
+
+	background-color: white;
+	border-radius: 1rem;
+}
+
+.announcements-card > div {
+	padding: 1rem;
+}
+
+.announcements-card strong {
+	display: inline-block;
+	margin-bottom: 0.25rem;
+}
+
+.announcements-card > div:nth-child(2) {
+	border-top: 1px solid lightgrey;
+	border-bottom: 1px solid lightgrey;
+}
+
+.trending-card {
+	padding: 0.5rem;
+	height: auto;
+
+	display: grid;
+	align-items: center;
+	justify-items: start;
+
+	background-color: white;
+	border-radius: 1rem;
+}
+
+.trending-card > div {
+	margin-left: 1rem;
+	
+	display: grid;
+	grid-template-columns: auto 1fr;
+	grid-template-rows: auto auto;
+	column-gap: 1rem;
+	row-gap: 0.5rem;
+}
+
+.trending-card strong {
+	align-self: end;
+}
+
+.trending-card img {
+	grid-row: 1 / 3;
+}

@@ -1,0 +1,44 @@
+Dashboard logo icon by Roberto Graham on Pictogrammers:
+https://pictogrammers.com/library/mdi/icon/orbit/
+
+Home icon by Google on Pictogrammers: 
+https://pictogrammers.com/library/mdi/icon/home/
+
+Profile icon by Google on Pictogrammers:
+https://pictogrammers.com/library/mdi/icon/account-box/
+
+Messages icon by Austin Andrews on Pictogrammers:
+https://pictogrammers.com/library/mdi/icon/chat/
+
+History icon by Google on Pictogrammers:
+https://pictogrammers.com/library/mdi/icon/history/
+
+Tasks icon by frankgrinaert on Pictogrammers:
+https://pictogrammers.com/library/mdi/icon/list-box/
+
+Communities icon by GreenTurtwig on Pictogrammers:
+https://pictogrammers.com/library/mdi/icon/account-group/
+
+Settings icon by Google on Pictogrammers:
+https://pictogrammers.com/library/mdi/icon/cog/
+
+Support icon by Google on Pictogrammers:
+https://pictogrammers.com/library/mdi/icon/help-circle/
+
+Privacy icon by Google on Pictogrammers:
+https://pictogrammers.com/library/mdi/icon/lock/
+
+Magnifying glass icon by Google on Pictogrammers:
+https://pictogrammers.com/library/mdi/icon/magnify/
+
+Notifications icon by Google on Pictogrammers:
+https://pictogrammers.com/library/mdi/icon/bell/
+
+Like / Thumbs Up icon by Google on Pictogrammers:
+https://pictogrammers.com/library/mdi/icon/thumb-up/
+
+Reply icon by Google on Pictogrammers:
+https://pictogrammers.com/library/mdi/icon/message-reply-text/
+
+Share icon by Google on Pictogrammers:
+https://pictogrammers.com/library/mdi/icon/share-variant/
